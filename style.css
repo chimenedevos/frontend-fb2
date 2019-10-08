@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+
+
+
+
+.nav {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+header {
+    color: white;
+    font-size: 25px;
+    height: 60px;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Danny heeft me geholpen */
+li:not(:last-child) {
+    justify-content: flex-end;
+    float: right;
+    margin-right: 0.5em;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+
+
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+h2:hover {
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style-type: none;
+}
+
+li a:hover {
+    color: grey;
+}
+
+ul {
+    width: 100%;
+    overflow: auto;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+
+
+/* victor heeft me geholpen*/
+/* homepagina */
+.gridyo {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax (200px, auto);
+}
+
+.gridyo img {
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.gridobject {
+    border-radius: 25px;
+    border: 1px solid grey;
+    margin: 50px;
+    background-color: antiquewhite;
+    height: 40vh;
+    transition: 0.8s;
+    box-shadow: 10px 10px 5px #DCDBE0;
+
+}
+
+.gridobject:hover {
+    background-color: #D5B59C;
+
+}
+
+a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.picdetail {
+    justify-content: center;
+}
+
+
+.hoofdpic {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.recipe {
+    color: black;
+    list-style-position: left;
+}
